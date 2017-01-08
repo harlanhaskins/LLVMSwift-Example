@@ -20,8 +20,8 @@ let main = builder.addFunction("main",
 
 // Create a global string object
 
-var helloWorld = builder.addGlobalString(name: "hello-world",
-                                         value: "Hello, world!")
+var helloWorld = builder.addGlobalString(name: "hello-llvm",
+                                         value: "Hello, LLVM!")
 
 // Begin adding code into the entry basic block
 let entry = main.appendBasicBlock(named: "entry")
